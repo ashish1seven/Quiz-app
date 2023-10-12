@@ -14,8 +14,8 @@ export const questionSet = [
     {
         id: 2,
         question: "What is the other name of javascript?",
-        answer: ["ecmascript", "java", "python", "typescript"],
-        correct: ["ecmascript"]
+        answer: ["EcmaScript", "Java", "Python", "TypeScript"],
+        correct: ["EcmaScript"]
     },
     {
         id: 3,
@@ -26,14 +26,14 @@ export const questionSet = [
     {
         id: 4,
         question: "Is javascript dynamically typed",
-        answer: ["true", "false"],
-        correct: ["true"]
+        answer: ["True", "False"],
+        correct: ["True"]
     },
     {
         id: 5,
         question: "The function and var are known as",
-        answer: ["keywords", "datatypes", "declartion statements", "prototypes"],
-        correct: ["declartion statements"]
+        answer: ["Keywords", "Datatypes", "Declartion Statements", "Prototypes"],
+        correct: ["Declartion Statements"]
     },
     ]
     }

@@ -59,19 +59,19 @@ const Quiz = () => {
   return (
     <div className="flex items-center justify-center w-screen h-screen ">
       {timerDiv && (
-        <div className="text-white  text-9xl h-full w-full flex items-center justify-center  animate-lets-start">
+        <div className="text-slate-300  text-9xl h-full w-full flex items-center justify-center  animate-lets-start">
           {timer}
         </div>
       )}
       {quesDiv && (
-        <div className="h-[90%] w-[90%] bg-white rounded-xl p-28 flex flex-col justify-between relative overflow-hidden  ">
-          <div className="w-full h-2 rounded bg-slate-200 absolute top-0 left-0">
+        <div className="h-[90%] w-[90%] bg-slate-900 rounded-xl p-28 flex flex-col justify-between relative overflow-hidden  ">
+          <div className="w-full h-2 rounded bg-slate-300 absolute top-0 left-0">
             <div
               className="h-full bg-orange-400 "
               style={{ width: inc * 20 + "%" }}
             ></div>
           </div>
-          <h1 className="text-5xl text-center">
+          <h1 className="text-5xl text-center text-slate-300">
             Question: {course[0]?.quizQuestion[counter]?.question}
           </h1>
 
@@ -79,7 +79,7 @@ const Quiz = () => {
             {course[0]?.quizQuestion[counter]?.answer.map((v) => {
               return (
                 <div
-                  className="flex items-center justify-center m-6 text-3xl text-center cursor-pointer h-44 w-80 bg-cyan-500 rounded-2xl"
+                  className="flex items-center justify-center m-6 text-3xl text-center cursor-pointer h-44 w-80 bg-cyan-300 rounded-2xl text-zinc-950"
                   onClick={() => {
                     ans(v);
                   }}

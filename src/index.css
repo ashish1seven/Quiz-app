@@ -15,6 +15,26 @@ body {
   overflow-x: hidden;
 }
 
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000;
+}
+
+
+::-webkit-scrollbar-thumb {
+  --tw-border-opacity: 1;
+    background-color: rgba(66, 66, 66, 0.6);
+    border-radius: 9999px;   
+}
+
+
+::-webkit-scrollbar-track {
+  background: #000; 
+  border-radius: 9999px;
+}
+
+
 .progress {
   animation: progrs 3s linear forwards;
 }
