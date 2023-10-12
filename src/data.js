@@ -25,15 +25,15 @@ export const questionSet = [
     },
     {
         id: 4,
-        question: "Is javascript dynamically typed",
+        question: "Is javascript dynamically typed?",
         answer: ["True", "False"],
         correct: ["True"]
     },
     {
         id: 5,
         question: "The function and var are known as",
-        answer: ["Keywords", "Datatypes", "Declartion Statements", "Prototypes"],
-        correct: ["Declartion Statements"]
+        answer: ["Keywords", "Datatypes", "Declaration Statements", "Prototypes"],
+        correct: ["Declaration Statements"]
     },
     ]
     }

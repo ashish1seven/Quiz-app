@@ -64,7 +64,7 @@ const Quiz = () => {
         </div>
       )}
       {quesDiv && (
-        <div className="h-[90%] w-[90%] bg-slate-900 rounded-xl p-28 flex flex-col justify-between relative overflow-hidden  ">
+        <div className="h-[90%] w-[90%] bg-slate-900 rounded-xl p-28 flex flex-col justify-between relative overflow-hidden shadow-2xl shadow-slate-600 mix-blend-normal bg-blend-color-burn">
           <div className="w-full h-2 rounded bg-slate-300 absolute top-0 left-0">
             <div
               className="h-full bg-orange-400 "
@@ -79,7 +79,7 @@ const Quiz = () => {
             {course[0]?.quizQuestion[counter]?.answer.map((v) => {
               return (
                 <div
-                  className="flex items-center justify-center m-6 text-3xl text-center cursor-pointer h-44 w-80 bg-cyan-300 rounded-2xl text-zinc-950"
+                  className="flex items-center justify-center m-6 text-3xl text-center cursor-pointer h-40 w-96 bg-cyan-300 rounded-2xl text-zinc-950"
                   onClick={() => {
                     ans(v);
                   }}
