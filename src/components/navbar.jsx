@@ -14,7 +14,7 @@ const Navbar = () => {
           className="px-3 py-1 text-2xl font-bold text-orange-400 duration-500 rounded hover:scale-125"
           href=""
         >
-          Quizz
+          Quizzz
         </a>
         <a
           className="px-3 py-1 duration-300 rounded hover:bg-slate-700 hover:animate-pulse hover:text-orange-400"

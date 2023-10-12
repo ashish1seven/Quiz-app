@@ -4,7 +4,23 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'lets-start':'ready 8s ease forwards'
+      },
+       keyframes: {
+        ready: {
+           '0%': { transform: 'scale(0)' },
+           '25%': { transform: 'scale(1)' },
+           '26%': { transform: 'scale(0)' },
+           '50%': { transform: 'scale(1)' },
+           '51%': { transform: 'scale(0)' },
+           '75%': { transform: 'scale(1)' },
+           '76%': { transform: 'scale(0)' },
+           '100%': { transform: 'scale(1)' },
+        }
+      }
+    },
   },
   plugins: [],
 }
