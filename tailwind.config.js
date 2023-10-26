@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'lets-start':'ready 8s ease forwards'
+        'lets-start':'ready 6s ease forwards'
       },
        keyframes: {
         ready: {

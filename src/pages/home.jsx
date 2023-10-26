@@ -10,8 +10,13 @@ const Home = () => {
       <Navbar />
       <Slide />
       <h2 className="text-4xl text-white">Top Quiz</h2>
-      <div className="px-10 mt-10">
+      <div className="flex flex-wrap justify-center px-10 mt-10">
         <Card data={questionSet[0]} />
+        <Card data={questionSet[1]} />
+        <Card data={questionSet[2]} />
+        <Card data={questionSet[3]} />
+        <Card data={questionSet[4]} />
+        <Card data={questionSet[5]} />
       </div>
     </div>
   );
