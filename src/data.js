@@ -221,7 +221,7 @@ export const questionSet = [
                 "question": "Which car brand is known for its iconic 911 sports car model?",
                 "answer": ["BMW", "Audi", "Mercedes-Benz", "Porsche"],
                 "correct": ["Porsche"]
-            }
+            },
         ]
-    }
+    },
 ]
