@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Slide />
-      <h2 className="text-4xl text-white">Top Quiz</h2>
+      <Slide data={questionSet} />
+      <h2 className="mt-2 text-4xl text-center text-white">Top Quiz</h2>
       <div className="flex flex-wrap justify-center px-10 mt-10">
         <Card data={questionSet[0]} />
         <Card data={questionSet[1]} />

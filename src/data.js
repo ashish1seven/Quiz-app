@@ -2,7 +2,7 @@
 export const questionSet = [
      {
     id: "123af54",
-    title: "Awesome javascript",
+    title: "Javascript Basics",
     img: "https://i.ytimg.com/vi/ZHgGIWru5Ec/maxresdefault.jpg",
     quizQuestion: [
     {
@@ -40,7 +40,7 @@ export const questionSet = [
     {
         "id": "456bc78",
         "title": "Python Programming",
-        "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--jPSX-ydn--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/tteuu4xw5tomxb7l0xjx.png",
+        "img": "https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2FFeatures_Of_Python_1_f4ccd6d9f7.jpg&w=4500&q=90",
         "quizQuestion": [
             {
                 "id": 1,
@@ -191,7 +191,7 @@ export const questionSet = [
         "id": "789ac12",
         "title": "Car Knowledge Quiz",
         "img": "https://carwow-uk-wp-3.imgix.net/18015-MC20BluInfinito-scaled-e1666008987698.jpg",
-        "quizQuestions": [
+        "quizQuestion": [
             {
                 "id": 1,
                 "question": "Which car brand is known for producing the 'Mustang' model?",

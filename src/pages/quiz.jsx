@@ -9,7 +9,7 @@ import axios from "axios";
 const Quiz = () => {
   const [course, setCourse] = useState(null);
   const [counter, setCounter] = useState(0);
-  const [inc, setInc] = useState(0);
+  const [inc, setInc] = useState(1);
   const [timerDiv, setTimerDiv] = useState(true);
   const [quesDiv, setQuesDiv] = useState(false);
   const [show, setShow] = useState(false);
@@ -146,7 +146,7 @@ const Quiz = () => {
                                   : show
                                   ? "bg-red-300"
                                   : `bg-cyan-300`
-                              } hover:animate-animation-thump md:h-44 md:w-80 h-14   m-6 rounded-2xl flex text-center items-center justify-center text-3xl cursor-pointer`}
+                              } hover:animate-animation-thump md:h-44 md:w-80 h-14 ps-1 pe-1  m-6 rounded-2xl flex text-center items-center justify-center text-3xl cursor-pointer`}
                               onClick={() => {
                                 ans(v);
                               }}
